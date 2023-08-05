@@ -412,7 +412,7 @@
       <div class="footer__form">
         <h3>Any Questions</h3>
         <h2>Drop me a line</h2>
-        <form>
+        <form method="post" action="https://formspree.io/f/moqojzdd">
           <div class="row">
             <div class="input__container">
               <input
@@ -420,6 +420,7 @@
                 name="name"
                 id="name"
                 placeholder="Your Name"
+                required
               />
             </div>
             <div class="input__container">
@@ -428,6 +429,7 @@
                 name="email"
                 id="email"
                 placeholder="Your Email"
+                required
               />
             </div>
           </div>
@@ -438,6 +440,7 @@
                 name="subject"
                 id="subject"
                 placeholder="Subject"
+                required
               />
             </div>
             <div class="input__container">
@@ -446,6 +449,7 @@
                 name="phone"
                 id="phone"
                 placeholder="Your Phone Number"
+                required
               />
             </div>
           </div>
@@ -455,9 +459,10 @@
               id="message"
               rows="3"
               placeholder="Your Message"
+              required
             ></textarea>
           </div>
-          <button>Send Message</button>
+          <button type="submit">Send Message</button>
         </form>
       </div>
       <div class="social">
